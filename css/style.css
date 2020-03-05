@@ -1,0 +1,19 @@
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+   padding: 0%;
+}
+
+.py-5 {
+    background-color: black;
+}
+
+.row {
+    margin: 20px;
+}
+
+.card {
+    border: solid 1px black;
+}

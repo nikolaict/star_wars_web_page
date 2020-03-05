@@ -1,0 +1,17 @@
+{
+   "starWars": 
+   [
+    { 
+        "title": "New Hope", 
+        "rating": 92 
+    },
+    { 
+        "title": "Return of the Jedi", 
+        "rating": 81 
+    },
+    { 
+        "title": "The Empire Strikes Back", 
+        "rating": 74 
+    }
+    ]
+}

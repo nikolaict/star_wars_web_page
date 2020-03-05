@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="icon" href="image/star_wars.png" type="image/png" sizes="16x16">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg static-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+                <img src="image/star_wars_logo.png" height="70px;" alt="star wars logo">
+              </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        </div>
+      </nav>
+  <br>
+    <h1 class="text-center">Rating</h1>
+  <hr>
+  <br>
+
+  <!-- Content -->
+  <div class="container">
+
+    <!-- Chart.js -->
+    <canvas id="chart"></canvas>
+    <br>
+    <hr>
+      <h1 class="text-center">Star Wars movies</h1>
+    <hr>
+    <br>
+
+    <div class="row text-center">
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="image/new_hope.jpg" alt="a new hope">
+          <div class="card-body" id="rezultat">
+            <!-- Ispis -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="image/return of the jedi.jpg" alt="return of the jedi">
+          <div class="card-body" id="rezultat2">
+            <!-- Ispis -->
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card h-100">
+            <img class="card-img-top" src="image/the empire strikes back.jpg" alt="the empire strikes back">
+          <div class="card-body" id="rezultat1">
+            <!-- Ispis -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5">
+    <div class="container">
+      <p class="m-0 text-center text-white">
+          Zadatak: Star Wars Web stranica <br> Nikola Čeković</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+</body>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/chart.js"></script>
+</html>
